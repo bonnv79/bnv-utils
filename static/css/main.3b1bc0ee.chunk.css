@@ -1,0 +1,64 @@
+.Form_container__282ws {
+  display: block;
+  box-sizing: border-box;
+}
+
+.Form_container__282ws > .Form_form__YiB86 {
+  margin-right: 8px;
+}
+
+.Form_containerInline__2ahYR {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.Form_form__YiB86 {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.Form_label__1e3iP {
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+  color: #bdbdbd;
+  font-size: 0.8em;
+  font-weight: 100;
+  margin-bottom: 5px;
+}
+
+.Form_content__19UFV {
+  display: flex;
+  align-items: center;
+  font-size: 0.9em;
+}
+
+.Form_formInline__cNiku {
+  display: flex;
+}
+
+.Form_formInline__cNiku > .Form_label__1e3iP {
+  margin-bottom: 0;
+}
+
+.Form_title__JqKfG {
+  font-size: 0.9em;
+  margin-bottom: 8px;
+}
+
+.Form_codeBlock__3FJQ0 {
+  margin: 0;
+  counter-reset: list-1 list-2 list-3 list-4 list-5 list-6 list-7 list-8 list-9;
+  border-radius: 3px;
+  white-space: pre-wrap;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  padding: 10px 15px;
+  background-color: #23241f;
+  color: #f8f8f2;
+  overflow: visible;
+  width: 100%;
+}
+
+/*# sourceMappingURL=main.3b1bc0ee.chunk.css.map*/
