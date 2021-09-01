@@ -21,7 +21,11 @@ const Template = (args) => {
       codeBlock
       label={(
         <>
-          const data = makeArray({args.count}{args.fill ? `, ${args.fill}` : ''})
+          {`
+import { delaySearch, search } from 'bnv-utils';
+
+const data = makeArray(${args.count}${args.fill ? `, ${args.fill}` : ''})
+          `}
         </>
       )}
     >
