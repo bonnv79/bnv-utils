@@ -22,10 +22,7 @@ const makeNumberFormat = (minimumFractionDigits = 0, maximumFractionDigits = 0, 
   return (number) => numberFormat.format(number);
 };
 
-const numberDecimal = (number, decimal = 2) => parseFloat(number).toFixed(Math.min(decimal, 100));
-
 export {
   LOCALES,
-  makeNumberFormat,
-  numberDecimal
+  makeNumberFormat
 };
