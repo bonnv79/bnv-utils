@@ -3,3 +3,4 @@ export * from './utils/makeDelaySearch';
 export * from './utils/search';
 export * from './utils/numberFormat';
 export * from './utils/numberDecimal';
+export * from './utils/arrUnionBy';

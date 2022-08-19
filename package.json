@@ -1,6 +1,6 @@
 {
   "name": "bnv-utils",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "bnv-utils",
   "author": "bonnv79",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "build-storybook": "build-storybook -s public -o build",
     "clean": "rimraf dist",
     "deploy": "build-storybook -s public -o build && gh-pages -d build",
-    "build": "npm run clean && cross-env NODE_ENV=production babel src/components --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,stories.js,__snapshots__"
+    "build": "npm run clean && cross-env NODE_ENV=production babel src/components --out-dir dist --copy-files --no-copy-ignored"
   },
   "eslintConfig": {
     "extends": [

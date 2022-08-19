@@ -1,14 +1,13 @@
 ## Changelog
 
+##### 1.5.1
+
+- Improvement: Modify makeArray
+- New-feature: arrUnionBy
+
 ##### 1.5.0
 
-| name              | Type               | Version              |
-| :---------------- | :----------------- |:---------------------|
-| makeArray         | Boolean            | 1.0.0 
-| makeDelaySearch   | Boolean            | 1.0.0   
-| search            | Boolean            | 1.0.0   
-| numberFormat      | Boolean            | 1.0.0   
-| numberDecimal     | Boolean            | 1.0.0   
+- New-feature: makeArray, makeDelaySearch, search, numberFormat, numberDecimal
 
 ##### 1.0.0
 
