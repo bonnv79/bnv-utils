@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 
-.container > .form {
+.container>.form {
   margin-right: 8px;
 }
 
@@ -38,7 +38,7 @@
   display: flex;
 }
 
-.formInline > .label {
+.formInline>.label {
   margin-bottom: 0;
 }
 
@@ -59,4 +59,13 @@
   color: #f8f8f2;
   overflow: visible;
   width: 100%;
+}
+
+.version {
+  position: fixed;
+  z-index: 1;
+  right: 8px;
+  bottom: 8px;
+  font-size: 0.9rem;
+  color: #bdbdbd;
 }

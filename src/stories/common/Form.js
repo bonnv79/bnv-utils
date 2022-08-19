@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './Form.module.css';
+import config from '../../../package.json';
 
 export const CodeBlock = ({ children, spellCheck = false, ...props }) => {
   return (
@@ -23,6 +24,7 @@ export const FormLabel = ({ style, label, children, inline, codeBlock }) => {
   const className = { [styles.formInline]: inline };
   return (
     <div className={clsx(styles.form, className)} style={style}>
+      <span className={styles.version}>v{config?.version}</span>
       <div className={styles.label}>
         {codeBlock ? <CodeBlock>{label}</CodeBlock> : label}
       </div>
