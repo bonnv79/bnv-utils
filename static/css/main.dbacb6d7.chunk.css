@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 
-.Form_container__2xReF > .Form_form__1yhFf {
+.Form_container__2xReF>.Form_form__1yhFf {
   margin-right: 8px;
 }
 
@@ -38,7 +38,7 @@
   display: flex;
 }
 
-.Form_formInline__1zb4g > .Form_label__gLE_n {
+.Form_formInline__1zb4g>.Form_label__gLE_n {
   margin-bottom: 0;
 }
 
@@ -61,4 +61,13 @@
   width: 100%;
 }
 
-/*# sourceMappingURL=main.d9de6c8d.chunk.css.map*/
+.Form_version__3wptj {
+  position: fixed;
+  z-index: 1;
+  right: 8px;
+  bottom: 8px;
+  font-size: 0.9rem;
+  color: #bdbdbd;
+}
+
+/*# sourceMappingURL=main.dbacb6d7.chunk.css.map*/
