@@ -1,5 +1,10 @@
 ## Changelog
 
+##### 1.6.0
+
+- New-feature: objIsObject, objIsEmpty, arrIsEmpty
+- Improvement: add isArray demo for lodash 
+
 ##### 1.5.1
 
 - Improvement: Modify makeArray

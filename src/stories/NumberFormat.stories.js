@@ -3,7 +3,7 @@ import { LOCALES, makeNumberFormat } from '../components/index';
 import { Container, FormLabel } from './common/Form';
 
 export default {
-  title: 'Utils/Numberformat',
+  title: 'Utils/makeNumberFormat',
   argTypes: {
     value: {
       control: { type: 'number' }
@@ -55,8 +55,8 @@ const formatDeDEValue = numberFormatDeDE(value);
   )
 };
 
-export const Numberformat = Template.bind({});
-Numberformat.args = {
+export const _makeNumberFormat = Template.bind({});
+_makeNumberFormat.args = {
   value: 10,
   min: 2,
   max: ''

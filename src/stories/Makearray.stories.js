@@ -3,7 +3,7 @@ import { makeArray } from '../components/index';
 import { FormLabel } from './common/Form';
 
 export default {
-  title: 'Utils/Makearray',
+  title: 'Utils/makeArray',
   argTypes: {
     count: {
       control: { type: 'number' }
@@ -38,8 +38,8 @@ const data = makeArray(${args.count}${args.fill ? `, ${args.fill}` : ''})
   )
 };
 
-export const Makearray = Template.bind({});
-Makearray.args = {
+export const _makeArray = Template.bind({});
+_makeArray.args = {
   count: 10,
   fill: ''
 };

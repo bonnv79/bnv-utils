@@ -4,3 +4,6 @@ export * from './utils/search';
 export * from './utils/numberFormat';
 export * from './utils/numberDecimal';
 export * from './utils/arrUnionBy';
+export * from './utils/objIsObject';
+export * from './utils/objIsEmpty';
+export * from './utils/arrIsEmpty';

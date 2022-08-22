@@ -3,7 +3,7 @@ import { numberDecimal } from '../components/index';
 import { FormLabel } from './common/Form';
 
 export default {
-  title: 'Utils/Numberdecimal',
+  title: 'Utils/numberDecimal',
   argTypes: {
     value: {
       control: { type: 'number' }
@@ -38,8 +38,8 @@ const decimalValue = numberDecimal(value, decimal);
   )
 };
 
-export const Numberdecimal = Template.bind({});
-Numberdecimal.args = {
+export const _numberDecimal = Template.bind({});
+_numberDecimal.args = {
   value: 10,
   decimal: 2,
 };

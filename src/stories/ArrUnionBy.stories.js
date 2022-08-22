@@ -3,7 +3,7 @@ import { arrUnionBy } from '../components/index';
 import { FormLabel } from './common/Form';
 
 export default {
-  title: 'Utils/Arrunionby',
+  title: 'Utils/arrUnionBy',
   argTypes: {
     arr: {
       control: { type: 'array' }
@@ -43,8 +43,8 @@ const data = arrUnionBy(arr, arr1); // [arrays] (...Array): The arrays to inspec
   )
 };
 
-export const _Arrunionby = Template.bind({});
-_Arrunionby.args = {
+export const _arrUnionBy = Template.bind({});
+_arrUnionBy.args = {
   arr: [1, 1, 2, 2, 3, 3, 3, 'a', 'a', [1], [1], { a: 1 }, { a: 1 }, [1, { a: 1 }], [1, { a: 1 }]],
   arr1: [3, 4, 5, 5, 6, 6]
 };

@@ -3,7 +3,7 @@ import { delaySearch, search } from '../components/index';
 import { Container, FormLabel } from './common/Form';
 
 export default {
-  title: 'Utils/Makedelaysearch',
+  title: 'Utils/delaySearch',
   argTypes: {
   },
 };
@@ -78,6 +78,6 @@ const filterData = data.filter(item => search(item.name, searchKey));
   )
 };
 
-export const Makedelaysearch = Template.bind({});
-Makedelaysearch.args = {
+export const _delaySearch = Template.bind({});
+_delaySearch.args = {
 };
