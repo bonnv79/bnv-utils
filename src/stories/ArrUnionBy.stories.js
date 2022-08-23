@@ -1,9 +1,10 @@
 import React from 'react';
 import { arrUnionBy } from '../components/index';
 import { FormLabel } from './common/Form';
+import { getUtilsTitle } from './contants';
 
 export default {
-  title: 'Utils/arrUnionBy',
+  title: getUtilsTitle('Arr Union By'),
   argTypes: {
     arr: {
       control: { type: 'array' }

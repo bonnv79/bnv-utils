@@ -1,9 +1,10 @@
 import React from 'react';
 import { numberDecimal } from '../components/index';
 import { FormLabel } from './common/Form';
+import { getUtilsTitle } from './contants';
 
 export default {
-  title: 'Utils/numberDecimal',
+  title: getUtilsTitle('Number Decimal'),
   argTypes: {
     value: {
       control: { type: 'number' }

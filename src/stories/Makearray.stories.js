@@ -1,9 +1,10 @@
 import React from 'react';
 import { makeArray } from '../components/index';
 import { FormLabel } from './common/Form';
+import { getUtilsTitle } from './contants';
 
 export default {
-  title: 'Utils/makeArray',
+  title: getUtilsTitle('Make Array'),
   argTypes: {
     count: {
       control: { type: 'number' }

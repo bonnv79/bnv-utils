@@ -13,6 +13,9 @@ npm install --save bnv-utils
 ## Demo
 Demo and playground are available [here](https://bonnv79.github.io/bnv-utils/)
 
+## Usage test
+<a href="https://codesandbox.io/s/bnv-utils-x24mhw">CodeSandbox</a>
+
 ## Versions
 [CHANGELOG](CHANGELOG.md)
 

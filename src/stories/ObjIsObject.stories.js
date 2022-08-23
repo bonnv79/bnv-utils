@@ -2,9 +2,10 @@ import { toString } from 'lodash';
 import React from 'react';
 import { objIsObject } from '../components/index';
 import { FormLabel } from './common/Form';
+import { getUtilsTitle } from './contants';
 
 export default {
-  title: 'Utils/objIsObject',
+  title: getUtilsTitle('Obj Is Object'),
   argTypes: {
     arr: {
       control: { type: 'array' }

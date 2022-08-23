@@ -1,9 +1,10 @@
 import { toString, isArray } from 'lodash';
 import React from 'react';
 import { FormLabel } from '../common/Form';
+import { getLodashTitle } from '../contants';
 
 export default {
-  title: 'Lodash/isArray',
+  title: getLodashTitle('Is Array'),
   argTypes: {
     arr: {
       control: { type: 'array' }

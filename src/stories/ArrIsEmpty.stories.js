@@ -2,9 +2,10 @@ import { toString } from 'lodash';
 import React from 'react';
 import { arrIsEmpty } from '../components/index';
 import { FormLabel } from './common/Form';
+import { getUtilsTitle } from './contants';
 
 export default {
-  title: 'Utils/arrIsEmpty',
+  title: getUtilsTitle('Arr Is Empty'),
   argTypes: {
     arr: {
       control: { type: 'array' }

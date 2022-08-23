@@ -1,9 +1,10 @@
 import React from 'react';
 import { LOCALES, makeNumberFormat } from '../components/index';
 import { Container, FormLabel } from './common/Form';
+import { getUtilsTitle } from './contants';
 
 export default {
-  title: 'Utils/makeNumberFormat',
+  title: getUtilsTitle('Make Number Format'),
   argTypes: {
     value: {
       control: { type: 'number' }

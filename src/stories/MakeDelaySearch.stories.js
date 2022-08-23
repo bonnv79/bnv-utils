@@ -1,9 +1,10 @@
 import React from 'react';
 import { delaySearch, search } from '../components/index';
 import { Container, FormLabel } from './common/Form';
+import { getUtilsTitle } from './contants';
 
 export default {
-  title: 'Utils/delaySearch',
+  title: getUtilsTitle('Delay Search'),
   argTypes: {
   },
 };
