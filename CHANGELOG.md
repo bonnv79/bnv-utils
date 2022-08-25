@@ -1,5 +1,9 @@
 ## Changelog
 
+##### 1.7.0
+
+- New-feature: calc (sum, sub, mul, div, mod)
+
 ##### 1.6.0
 
 - New-feature: objIsObject, objIsEmpty, arrIsEmpty

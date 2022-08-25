@@ -7,3 +7,5 @@ export * from './utils/arrUnionBy';
 export * from './utils/objIsObject';
 export * from './utils/objIsEmpty';
 export * from './utils/arrIsEmpty';
+export * from './utils/arrCalc';
+export * from './utils/calc';
